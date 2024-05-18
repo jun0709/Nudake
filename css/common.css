@@ -1,0 +1,183 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+img{max-width: 100%;vertical-align: top;}
+.wrap_w {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+body {
+    position: relative;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    z-index: 9;
+}
+
+.header1 {
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
+}
+
+.header_ul>li {
+    padding: 0 30px;
+    float: left;
+    font-family: "Melting";
+    font-size: 25px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: url(../img/nudake_logo.png)center / cover;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fo1 > span > a {
+    color : #fff;
+}
+.fologo{
+    filter:invert(98%) sepia(0%) saturate(2145%) hue-rotate(162deg) brightness(113%) contrast(100%);
+}
+@font-face {
+    font-family: "Melting";
+    src: url("../font/Melting-candle-font_Balpirick-studio_061223/MeltingCandle.ttf");
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFLight';
+    src: url('../font/GmarketSansTTF/GmarketSansTTFLight.ttf') format('woff2');
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansTTFLMedium';
+    src: url('../font/GmarketSansTTF/GmarketSansTTFMedium.ttf') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main_menu {
+    font-family: "Melting";
+}

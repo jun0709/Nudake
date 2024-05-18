@@ -1,0 +1,32 @@
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    align-items: center;
+}
+#store{
+    font-size: 50px;
+    float: left;
+}
+.top > ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.top > ul > li {
+    font-family: "Melting";
+    font-weight: 900;
+    font-size: 30px;
+    padding: 0 20px;
+}
+.display_block{
+    display: block;
+}
+.display_none{
+    display: none;
+}
+#store ~ li{
+    cursor: pointer;
+}
