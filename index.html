@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body id="body">
+    <div id="login_outer">
+        <div class="login_box">
+            <div class="closeBtn" id="closeBtn">X</div>
+            <span>login</span>
+            <div class="input_box">
+                <div><input type="text" placeholder="아이디"></div>
+                <div><input type="password" placeholder="비밀번호"></div>
+            </div>
+            <div class="button_box">
+                <input type="button" value="로그인">
+                <input type="button" value="회원가입" id="sign_btn">
+            </div>
+        </div>
+    </div>
+    <div id="Sign_outer">
+        <div class="Sign_box">
+            <div class="closeBtn" id="closeBtn1">X</div>
+            <span>Sign</span>
+            <div class="input_box">
+                <div><input type="text" placeholder="아이디"></div>
+                <div><input type="password" placeholder="비밀번호"></div>
+                <div><input type="password" placeholder="비밀번호 확인"></div>
+                <div><input type="email" placeholder="이메일"></div>
+                <div><input type="text" placeholder="성명"></div>
+            </div>
+            <div class="button_box">
+                <input type="button" value="가입">
+                <input type="button" value="취소" id="cancel">
+            </div>
+        </div>
+    </div>
+    
+    <div id="wrap">
+        <header class="header">
+            <div class="wrap_w">
+                <a href="index.html">
+                    <div class="logo"></div>
+                </a>
+                <ul class="header_ul">
+                    <li><a href="brand.html">Brand</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+                <ul class="header_ul">
+                    <li id="login">Login</li>
+                    <li id="Sign">Sign in</li>
+                </ul>
+            </div>
+        </header>
+        <main >
+            <div class="">
+                <section class="setion0">
+                    <div class="sec sec0">
+                        <div class="banner ">
+                            <div class="banner_L">
+                                <span>THE BEST <br>NUDEAKE</span>
+                                <span>패션과 아트를 합쳐 특별한 디저트를 만든다는 누데이크<br>
+                                    ‘새로운(New)’ ‘다른(Different)’ ‘케이크(Cake)’ <br>세 가지 단어를 조합한 상호 ‘NUDAKE’는<br> 지금까지 경험해보지 못했던 케이크를 만들고자 합니다.
+                                </span>
+                                <div class="banner_img bimg1"></div>
+                                <div class="banner_img bimg2"></div>
+                                <div class="banner_img bimg3"></div>
+                                <div class="banner_img bimg4"></div>
+                                <div class="banner_img bimg5"></div>
+                            </div>
+                            <video src="./mp4/index/banner.mp4" alt="" autoplay loop muted>
+                        </div>
+                    </div>
+                    <div class="sec sec1">
+                            <div class="bar">
+                                <div class="dong d1">
+                                    <video src="./mp4/index/sec1_d1.mp4"autoplay muted  loop></video>
+                                </div>
+                                <div class="dong d2">
+                                    <video src="./mp4/index/sec1_d2.mp4" autoplay muted loop></video>
+                                </div>
+                                <div class="dong d3">
+                                    <video src="./mp4/index/sec1_d3.mp4" autoplay muted loop></video>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sec sec2">
+                        <div class="main_menu">
+                            <span>
+                                <p class="p1">M</p>
+                                <p class="p2">E</p>
+                                <p class="p3">N</p>
+                                <p class="p4">U</p>
+                            </span>
+                        </div>
+                        <div class="sec2_arr">
+                            <div class="swiper sec2_outer">
+                                <div id="swipwrap" class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                            <img src="./img/product/sinsa/1.명란오니와상.png" alt="">
+                                        <div class="menu_name"><span>명란오니와상</span></div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/2.김치오니와상.png" alt="">
+                                        <div class="menu_name"><span>김치오니와상</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/3.파오니와상.png" alt="">
+                                        <div class="menu_name"><span>파오니와상</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/4.바질레몬오니와상.png" alt="">
+                                        <div class="menu_name"><span>바질레몬오니와상</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/5.피크오니와상.png" alt="">
+                                        <div class="menu_name"><span>피크오니와상</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/6.호두바닐라오니와상.png" alt="">
+                                        <div class="menu_name"><span>호두바닐라오니와상</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/7.에그플랜트갈레트.png" alt="">
+                                        <div class="menu_name"><span>에그플랜트갈레트</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/8.토마토갈레트.png" alt="">
+                                        <div class="menu_name"><span>토마토갈레트</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sec2_img">
+                                        <img src="./img/product/sinsa/9.어니언갈레트.png" alt="">
+                                        <div class="menu_name"><span>어니언갈레트</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                    
+                    
+                                <div class="swiper-button-prev btn"></div>
+                                <div class="swiper-button-next btn"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="sec sec3">
+                        <div class="sec3_outer sec3_L">
+                            
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide swi1">
+                                        <img src="./img/place1.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide swi2">
+                                        <img src="./img/place2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide swi3">
+                                        <img src="./img/place3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec3_outer sec3_R">
+                            <div class="swiper-pagination" id="sip"></div>
+                            <div class="s3_R_box">
+                                <div class="s3_R_store"><span>STORE</span></div>
+                                <div class="place">
+                                    <div class="s3_R_cho place1">
+                                        <span>성수점</span>
+                                        <div class="address display_none"><span>서울특별시 성동구 성수이로7길 26</span></div>
+                                    </div>
+                                    <div class="s3_R_cho place2">
+                                        <span>신사점</span>
+                                        <div class="address display_none"><span> 서울특별시 강남구 강남대로162길 43</span></div>
+                                    </div>
+                                    <div class="s3_R_cho place3">
+                                        <span>하우스 도산점</span>
+                                        <div class="address display_none"><span>서울특별시 강남구 압구정로46길 50</span></div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec sec4">
+                        <div class="sec4_outer">
+                            <div class="sec4_box">
+                                <img src="./img/event1.jpg" alt="">
+                            </div>
+                            <div class="sec4_box">
+                                <img src="./img/event2.jpg" alt="">
+                            </div>
+                            <div class="sec4_box">
+                                <img src="./img/event3.jpg" alt="">
+                            </div>
+                            <div class="sec4_box">
+                                <img src="./img/event4.jpg" alt="">
+                            </div>
+                            <div class="sec4_box">
+                                <img src="./img/event5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer>
+                <div class="fo1">
+                    <div class="logo fologo"></div>
+                </div>
+                <div class="fo2">
+                    <span>대표자 : 성준혁</span><br><br>
+                    <span>대표번호 : 010-5463-5938</span><br><br>
+                    <span>이메일 : tjdwnsgur7@naver.com</span>
+                </div>
+            </footer>
+        </main>    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

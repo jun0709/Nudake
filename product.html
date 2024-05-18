@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div id="login_outer">
+        <div class="login_box">
+            <div class="closeBtn" id="closeBtn">X</div>
+            <span>login</span>
+            <div class="input_box">
+                <div><input type="text" placeholder="아이디"></div>
+                <div><input type="password" placeholder="비밀번호"></div>
+            </div>
+            <div class="button_box">
+                <input type="button" value="로그인">
+                <input type="button" value="회원가입" id="sign_btn">
+            </div>
+        </div>
+    </div>
+    <div id="Sign_outer">
+        <div class="Sign_box">
+            <div class="closeBtn" id="closeBtn1">X</div>
+            <span>Sign</span>
+            <div class="input_box">
+                <div><input type="text" placeholder="아이디"></div>
+                <div><input type="password" placeholder="비밀번호"></div>
+                <div><input type="password" placeholder="비밀번호 확인"></div>
+                <div><input type="email" placeholder="이메일"></div>
+                <div><input type="text" placeholder="성명"></div>
+            </div>
+            <div class="button_box">
+                <input type="button" value="가입">
+                <input type="button" value="취소" id="cancel">
+            </div>
+        </div>
+    </div>
+    <div id="wrap">
+        
+        <header class="header1">
+            <div class="wrap_w">
+                <a href="index.html">
+                    <div class="logo"></div>
+                </a>
+                <ul class="header_ul">
+                    <li><a href="brand.html">Brand</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+                <ul class="header_ul">
+                    <li id="login">Login</li>
+                    <li id="Sign">Sign in</li>
+                </ul>
+            </div>
+        </header>
+        <div class="brand_main">
+<!---------------------------------------->
+<!-----------------menu_txt--------------->
+<!---------------------------------------->
+            <div class="main_L sec">
+                <ul class="menu_txt">
+                    <li class="menu_txt_li"><a href="#"><img src="./img/nudake_logo.png" alt="로고">하우스 도산 & 성 수</a></li>
+                    <li class="menu_txt_li"><a href="#"><img src="./img/nudake_logo.png" alt="로고">신 사</a></li>
+                </ul>
+                <div class="product_box">
+                    <!-- <div class="product_pan dosan">
+                        <h1>하우스 도산</h1>
+                        <ul class="product_pan_ul">
+                            <li class="product_pan_tit">
+                                <span>MENU</span>
+                                <span>PRICE</span>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!-- 
+                    <div class="product_pan seongsu">
+                        <h1>성 수</h1>
+                        <ul></ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="main_R sec">
+                <div class="item_box">
+                    <div class="item_img_sec item_img_sec_act"></div>
+                    <div class="item_img_sec"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="fo1">
+            <div class="logo fologo"></div>
+        </div>
+        <div class="fo2">
+            <span>대표자 : 성준혁</span><br><br>
+            <span>대표번호 : 010-5463-5938</span><br><br>
+            <span>이메일 : tjdwnsgur7@naver.com</span>
+        </div>
+    </footer>
+    <script src="./js/login.js"></script>
+    <script src="./js/item.js"></script>
+    <script src="./js/product.js"></script>
+
+</body>
+</html>

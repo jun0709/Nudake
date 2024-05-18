@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/store.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="login_outer">
+        <div class="login_box">
+            <div class="closeBtn" id="closeBtn">X</div>
+            <span>login</span>
+            <div class="input_box">
+                <div><input type="text" placeholder="아이디"></div>
+                <div><input type="password" placeholder="비밀번호"></div>
+            </div>
+            <div class="button_box">
+                <input type="button" value="로그인">
+                <input type="button" value="회원가입" id="sign_btn">
+            </div>
+        </div>
+    </div>
+    <div id="Sign_outer">
+        <div class="Sign_box">
+            <div class="closeBtn" id="closeBtn1">X</div>
+            <span>Sign</span>
+            <div class="input_box">
+                <div><input type="text" placeholder="아이디"></div>
+                <div><input type="password" placeholder="비밀번호"></div>
+                <div><input type="password" placeholder="비밀번호 확인"></div>
+                <div><input type="email" placeholder="이메일"></div>
+                <div><input type="text" placeholder="성명"></div>
+            </div>
+            <div class="button_box">
+                <input type="button" value="가입">
+                <input type="button" value="취소" id="cancel">
+            </div>
+        </div>
+    </div>
+    <header class="header1">
+        <div class="wrap_w">
+            <a href="index.html"><div class="logo"></div></a>
+                <ul class="header_ul">
+                    <li><a href="brand.html">Brand</a></li>
+                    <li><a href="product.html">Menu</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+                <ul class="header_ul">
+                    <li id="login">Login</li>
+                    <li id="Sign">Sign in</li>
+                </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="top">
+                <ul>
+                    <li id="store">store</li>
+                    <li>신사</li>
+                    <li>성수</li>
+                    <li>도산</li>
+                </ul>
+            </div>
+            <div class="map">
+                <iframe class="display_block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.443187160292!2d127.0192413758428!3d37.521048872050436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca365cdd66dd1%3A0xb5b9164120c89783!2z64iE642w7J207YGsIOyLoOyCrA!5e0!3m2!1sko!2skr!4v1702976146301!5m2!1sko!2skr" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="display_none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.572590508317!2d127.05170147584377!3d37.54157137204509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca52159272f1f%3A0x4d1787f710dab2a4!2z64iE642w7J207YGsIOyEseyImA!5e0!3m2!1sko!2skr!4v1702977367912!5m2!1sko!2skr" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="display_none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.2579407183525!2d127.03306377584292!3d37.525416472049244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3217764e2b7%3A0x5e6a3142423a4c2b!2z64iE642w7J207YGsIO2VmOyasOyKpOuPhOyCsA!5e0!3m2!1sko!2skr!4v1702977414513!5m2!1sko!2skr" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="fo1">
+            <div class="logo fologo"></div>
+        </div>
+        <div class="fo2">
+            <span>대표자 : 성준혁</span><br><br>
+            <span>대표번호 : 010-5463-5938</span><br><br>
+            <span>이메일 : tjdwnsgur7@naver.com</span>
+        </div>
+    </footer>
+    <script src="./js/store.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
